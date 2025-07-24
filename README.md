@@ -13,47 +13,19 @@ This is a simple Java EE web application built using Servlets and JSP, providing
 
 ## Technologies Used
 
-- Java EE Servlets and JSP
-- JSTL for JSP tag handling
-- Bootstrap 5 for UI styling
-- Maven (optional) or manual JAR management
-- Servlet API (jakarta.servlet)
-- JSP Standard Tag Library (JSTL)
-
-## Project Structure
-
-/src
-/main
-/java
-/com/calculator/servlet/
-- RegisterServlet.java
-- LoginServlet.java
-- CalcServlet.java
-- UsersServlet.java
-- ClearHistoryServlet.java
-/com/calculator/filter/
-- AuthFilter.java
-/webapp
-/jsp/
-- register.jsp
-- login.jsp
-- calculator.jsp
-- users.jsp
-- error404.jsp
-/static/css/
-- style.css
-/web.xml
-
-pgsql
-Копировать
-Редактировать
+•	Java 11
+•	Servlet API
+•	JSP
+•	HTML5 / CSS3
+•	Bootstrap 5
+•	Apache Tomcat 9 или 10
 
 ## Setup and Running
 
 1. Import the project into your favorite IDE (Eclipse, IntelliJ IDEA).
 2. Make sure you have a servlet container like Apache Tomcat (version 10 or higher) installed.
 3. Build and deploy the WAR to your servlet container.
-4. Access the application at `http://localhost:8080/your-app-context/register` to register a new user.
+4. Access the application at `http://localhost:8080/CalculatorWebApp/jsp/register.jsp` to register a new user.
 5. After login, you will be able to access the calculator page and the list of registered users.
 
 ## Features
@@ -61,7 +33,6 @@ pgsql
 ### Registration and Login
 
 - Users can register with a username and password.
-- Passwords should be stored securely (in your DAO implementation).
 - Login form validates user credentials.
 
 ### Calculator Page

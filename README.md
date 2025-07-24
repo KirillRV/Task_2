@@ -13,12 +13,12 @@ This is a simple Java EE web application built using Servlets and JSP, providing
 
 ## Technologies Used
 
-•	Java 11
-•	Servlet API
-•	JSP
-•	HTML5 / CSS3
-•	Bootstrap 5
-•	Apache Tomcat 9 или 10
+-	Java 11
+- Servlet API
+-	JSP
+-	HTML5 / CSS3
+-	Bootstrap 5
+-	Apache Tomcat 9 или 10
 
 ## Setup and Running
 

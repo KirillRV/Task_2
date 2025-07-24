@@ -18,7 +18,7 @@ This is a simple Java EE web application built using Servlets and JSP, providing
 -	JSP
 -	HTML5 / CSS3
 -	Bootstrap 5
--	Apache Tomcat 9 или 10
+-	Apache Tomcat 10
 
 ## Setup and Running
 
